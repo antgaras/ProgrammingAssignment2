@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This function creates a list of functions to set, reset and get the catched matrix 
+## and stores the catched matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## this function returns the inverse of a matrix or the catched solution
+## if it was already solved
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
